@@ -11,9 +11,7 @@ body{
     min-height: 100vh;
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-	background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(186,107,182,1) 35%, rgba(205,100,205,1) 46%, rgba(0,212,255,1) 100%);
-
+background: #fff;
 z-index: -2;
 }
 .wrapper{
@@ -38,7 +36,7 @@ z-index: -2;
 h2{
     text-align: center;
     font-size: 1.5em;
-    color: black;
+    color: #e94d58;
     margin: 15px 0;
 	z-index: 2;
 }
