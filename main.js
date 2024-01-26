@@ -6,13 +6,17 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Yay, see yaa!! ";
-  gif.src ="second.gif";
+  gif.src = "second.gif";
 
-  yesBtn.addEventListener("click", () =>{
+  // Hide buttons after clicking 'Yes'
+  yesBtn.style.display = "none";
+  noBtn.style.display = "none";
+
+  // Show 'Thank You!' message after a delay
+  setTimeout(() => {
     question.innerHTML = "Thank You!";
-    gif.src ="second.gif";
-  });
-
+    gif.src = "second.gif";
+  }, 1000);
 });
 
 noBtn.addEventListener("mouseover", () => {
@@ -26,4 +30,3 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
 });
-
