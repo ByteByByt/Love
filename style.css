@@ -77,8 +77,5 @@ button:nth-child(2){
 	.image{
 		scale:0.5;
 	}
-	body{
-		background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(186,107,182,1) 35%, rgba(205,100,205,1) 46%, rgba(0,212,255,1) 100%);
-	}
+	
 }
